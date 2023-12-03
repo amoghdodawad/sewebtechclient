@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 230, 207);
+    border-bottom: 2px solid ;
+    box-shadow: 0.2rem 0.2rem rgba(0,0,0,0.1);
+}
+
+.box {
+    /* margin-top: 1rem; */
+    margin-left: 2rem;
+    /* margin-right: 2rem; */
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.login:hover {
+    cursor: pointer;
+}
+
+#img {
+    width: 4rem;
+    height: 4rem;
+}
